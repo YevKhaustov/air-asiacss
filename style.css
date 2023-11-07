@@ -247,6 +247,7 @@ button {
     margin-right: 0;
 }
 .news__date{
+display: inline-block;
 font-size: 14px;
 margin-bottom: 18px;
 }
@@ -309,6 +310,26 @@ margin-bottom: 18px;
     padding: 70px 50px 65px 50px;
     margin-top: 100px;
     margin-left: -100px;
+}
+
+.about__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 112%;
+}
+
+.about__titel {
+    position: relative;
+}
+.about__text {
+    padding-top: 55px;
+    position: relative;
+}
+.about__buttom {
+    padding-top: 40px;
+    position: relative;
 }
 
 .socials__list {
